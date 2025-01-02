@@ -1,0 +1,49 @@
+Connection string to interchange data
+2 Approches
+mysqli and pdo(php data object)
+pdo is a advance approach as it can work with 12 drivers
+as for mysqli can only workwith mysqli
+mera ghar mysqli hai 
+
+constructor is a autofire 
+constructor contain data member and member function
+
+pdo Constructor required
+server,user,password (parameters value required)
+
+we use locallay here thats why we use root in user and null in password
+if we use any domain then we put user name and password which provide by domain 
+
+new keyword allocat space in memory when object is created
+
+Query.php is used to interchange between databse and website
+    
+
+Method Post/Get:
+it is a set of rules how to send and get data
+Contain and work on  HTTP(Hyper text transfer Protocol)
+
+get: show query string in the url(insecure method) HTTP
+post: hide quesry string in url (secure method) HTTPS
+
+isSet method = return Boolean (Check value it is set or not if set return true otherwise false)
+searching value in URL 
+
+Super Global variable:
+It is and associative array type (Key value pair)
+$_POST['']
+$_GET['']
+$_FILES[''] is an assiciative array type store multiple data
+
+name key : predined name othati hai
+
+built in method 
+query: tab use karain gai fetch the whole data (like from table)
+prepare: tab use karain when we want to fetch data from one row/condition exist (where clause exist) or want to fetch single string 
+insert/delete/update/where use prepare
+
+
+categories
+product
+query
+header
